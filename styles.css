@@ -1,0 +1,81 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #50705c;
+}
+
+header {
+    background-color: hwb(90 31% 37% / 0.918);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(240, 7, 7, 0.1);
+}
+
+.noticia {
+    margin-bottom: 20px;
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+}
+
+.noticia h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.noticia p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.noticia a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.conborde{
+    border: 1px solid hwb(90 95% 1% / 0.918);
+          border-radius: 20px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
